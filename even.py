@@ -1,6 +1,11 @@
 # 짝수
 def isEven(num):
-    print(num)
+    if num % 2 == 1:
+        abc = "홀수"
+    else:
+        abc = "짝수"
 
-result = isEven(3)
-print(result)
+    print(abc)
+
+isEven(10)
+
