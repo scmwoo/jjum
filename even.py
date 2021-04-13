@@ -7,5 +7,5 @@ def isEven(num):
 
     print(abc)
 
-isEven(10)
-
+kwy = int(input(" 숫자를 입력하세요 : "))
+isEven(kwy)
